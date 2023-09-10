@@ -1,4 +1,4 @@
-all: rails js
+all: js rails
 rails:
 	tmux split-window -bd -t "$(PANE_ID)" "bundle exec rails s -p 3001"
 js:
